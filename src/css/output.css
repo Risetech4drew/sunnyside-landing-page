@@ -679,7 +679,7 @@ video {
 }
 
 .bg-hero {
-  background-image: url('./images/desktop/image-header.jpg');
+  background-image: url('/images/desktop/image-header.jpg');
 }
 
 .bg-cover {

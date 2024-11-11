@@ -583,10 +583,6 @@ video {
   margin-right: auto;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -703,16 +699,12 @@ video {
      object-fit: cover;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
 .p-10 {
   padding: 2.5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-4 {
@@ -747,6 +739,11 @@ video {
   font-family: Fraunces, serif;
 }
 
+.text-2xl {
+  font-size: clamp(1.60rem, calc(1.08rem + 2.59vw), 2.93rem);
+  line-height: 1.2;
+}
+
 .text-6xl {
   font-size: clamp(2.57rem, calc(0.78rem + 8.95vw), 7.15rem);
   line-height: 1;
@@ -755,35 +752,6 @@ video {
 .text-lg {
   font-size: clamp(1.27rem, calc(1.03rem + 1.19vw), 1.88rem);
   line-height: 1.4;
-}
-
-.text-2xl {
-  font-size: clamp(1.60rem, calc(1.08rem + 2.59vw), 2.93rem);
-  line-height: 1.2;
-}
-
-.text-3xl {
-  font-size: clamp(1.80rem, calc(1.08rem + 3.63vw), 3.66rem);
-  line-height: 1.1;
-}
-
-.text-4xl {
-  font-size: clamp(2.03rem, calc(1.03rem + 4.98vw), 4.58rem);
-  line-height: 1;
-}
-
-.text-xl {
-  font-size: clamp(1.42rem, calc(1.06rem + 1.80vw), 2.34rem);
-  line-height: 1.4;
-}
-
-.text-base {
-  font-size: clamp(1.13rem, calc(0.98rem + 0.73vw), 1.50rem);
-  line-height: 1.5;
-}
-
-.text-\[1\.125rem\] {
-  font-size: 1.125rem;
 }
 
 .font-bold {

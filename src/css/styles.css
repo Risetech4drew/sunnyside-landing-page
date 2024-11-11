@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 48rem) {
+  .triangle-corner {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  }
+}

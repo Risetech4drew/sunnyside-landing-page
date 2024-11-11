@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/images/desktop/image-header.jpg')",
+        hero: "url('./images/desktop/image-header.jpg')",
       },
       fontFamily: {
         barlow: ["Barlow", "serif"],

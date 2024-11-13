@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero: "url('/images/desktop/image-header.jpg')",
+        cherries: "url('/images/desktop/image-graphic-design.jpg')",
+        orange: "url('/images/desktop/image-photography.jpg')",
       },
       fontFamily: {
         barlow: ["Barlow", "serif"],
